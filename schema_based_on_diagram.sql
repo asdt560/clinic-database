@@ -13,7 +13,7 @@ CREATE TABLE medical_histories (
   PRIMARY KEY(id)
 );
 
-CREATE treatment_history (
+CREATE TABLE treatment_history (
   history_id INT REFERENCES medical_histories(id),
   treatment_id INT REFERENCES treatments(id)
 );
