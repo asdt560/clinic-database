@@ -91,8 +91,6 @@ If you like this project then support it with a star.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-Original design idea by [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio).
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 📝 License <a name="license"></a>
