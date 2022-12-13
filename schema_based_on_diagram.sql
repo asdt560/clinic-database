@@ -16,9 +16,12 @@ CREATE TABLE medical_histories (
 CREATE INDEX patient_histories ON medical_histories(patient_id);
 
 CREATE TABLE treatment_history (
-  history_id INT REFERENCES medical_histories(id),
+  medical_history_id INT REFERENCES medical_histories(id),
   treatment_id INT REFERENCES treatments(id)
 );
+
+CREATE INDEX ON treatment_history (history_id);
+CREATE INDEX ON treatment_history (treatment_id);
 
 CREATE TABLE treatments (
   id INT GENERATED ALWAYS AS IDENTITY,
